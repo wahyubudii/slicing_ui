@@ -12,6 +12,7 @@ module.exports = {
         mono: ["IBM Plex Mono", "monospace", "ui-monospace"]
       },
       colors: {
+        skill: "#F7F7FB",
         yellow: {
           50: "#FFFDEB",
           100: "#FEFAD7",
@@ -32,7 +33,11 @@ module.exports = {
       const utilities = {
         ".bg-hero": {
           "background-image": "url(/hero.png)"
-        }
+        },
+        ".shadow-skill": {
+          "box-shadow": "0px 15px 30px rgba(0, 0, 0, 0.1)",
+          "border-radius": "5px"
+        } 
       }
 
       addUtilities(utilities)
