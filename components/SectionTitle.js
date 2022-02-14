@@ -1,5 +1,5 @@
-export default function SectionTitle({children}) {
+export default function SectionTitle({left, children}) {
   return(
-    <h2 className="text-2xl text-center font-mono font-semibold">{children}</h2>
+    <h2 className={`text-2xl font-semibold font-mono ${!left ? "text-center" : ""}`}>{children}</h2>
   );
 }

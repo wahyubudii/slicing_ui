@@ -13,6 +13,13 @@ export default function SectionProjects() {
             <ProjectItem 
               name="Hasten"
               description="Explorasi Landing Page"
+              image="/hasten.png"
+            />
+          </div>
+          <div className="w-6/12 px-4 pb-8">
+            <ProjectItem 
+              name="Resources"
+              description="Explorasi Resources Page"
               image="/resources.png"
             />
           </div>
@@ -27,14 +34,7 @@ export default function SectionProjects() {
             <ProjectItem 
               name="Hasten"
               description="Explorasi Landing Page"
-              image="/resources.png"
-            />
-          </div>
-          <div className="w-6/12 px-4 pb-8">
-            <ProjectItem 
-              name="Resources"
-              description="Explorasi Resources Page"
-              image="/resources.png"
+              image="/hasten.png"
             />
           </div>
         </div>
