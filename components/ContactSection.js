@@ -1,6 +1,7 @@
 import SectionTitle from "./SectionTitle";
 import SectionParagraph from "./SectionParagraph";
 import ContactItem from "./ContactItem";
+import Field from "./Filed";
 
 export default function ContactSection() {
   return (
@@ -30,7 +31,11 @@ export default function ContactSection() {
                 />
             </div>
         </div>
-        <div className="w-6/12">B</div>
+        <div className="w-6/12">
+            <form >
+                <Field label="Name" name="nama"/>
+            </form>
+        </div>
       </div>
     </section>
   );
