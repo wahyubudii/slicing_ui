@@ -44,7 +44,9 @@ export default function ContactSection() {
               </div>
               <Field label="Subject" name="subject" type="text"/>
               <Field label="Message" name="message" type="textarea" className="h-40"/>
-              <Button variant="black">Send</Button>
+              <div className="text-right">
+                <Button variant="black" pill>Send</Button>
+              </div>
             </form>
         </div>
       </div>
