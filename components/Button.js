@@ -3,7 +3,8 @@ export default function Button({className, variant, children}) {
 
     const variants = {
         "outline-yellow": `border border-yellow-500 text-yellow-500 py-3 px-10 `,
-        "yellow": "bg-yellow-500 text-black py-3 px-14"
+        "yellow": "bg-yellow-500 text-black py-3 px-14",
+        "black": "bg-black text-white"
     }
 
     const pickedVariant = variants[variant];
