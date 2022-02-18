@@ -1,5 +1,5 @@
 export default function Logo() {
     return (
-        <div className='uppercase text-2xl font-semibold tracking-widest text-white'>Wahyu</div>
+        <div className='uppercase text-2xl font-semibold tracking-widest text-white'>Logo</div>
     )
 }
