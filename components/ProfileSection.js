@@ -3,15 +3,15 @@ import SectionTitle from "./SectionTitle";
 
 export default function ProfileSection() {
   return (
-    <section className="py-28">
-      <div className="container mx-auto">
+    <section className="py-28" id="profile">
+      <div className="container mx-auto px-10 2xl:px-0">
           <SectionTitle>Profile</SectionTitle>
           <SectionParagraph>Mengenal saya secara singkat.</SectionParagraph>
-        <div className="mt-16 flex mx-auto w-10/12 item-center">
-          <div className="w-5/12 px-10">
+        <div className="flex lg:items-center md:items-start flex-wrap xl:w-9/12 mx-auto mt-10 ">
+          <div className="md:w-5/12 w-full px-10 mb-10 md:mb-0">
             <img src="/profile.png" className="w-full" />
           </div>
-          <div className="w-7/12 px-10">
+          <div className="md:w-7/12 w-full px-10">
             <p className="text-base text-justify leading-relaxed">
               {" "}
               Aliquam blandit leo lorem, nec vehicula mi accumsan posuere. Duis

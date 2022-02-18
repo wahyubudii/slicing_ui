@@ -1,4 +1,4 @@
-export default function Button({className, variant, children, pill}) {
+export default function Button({href, className, variant, children, pill}) {
     const addClassName = className ? `${className}` : ""
 
     const variants = {
@@ -10,6 +10,6 @@ export default function Button({className, variant, children, pill}) {
     const pickedVariant = variants[variant];
 
     return (
-        <a href="" className={`transition py-3 px-10 text-lg font-semibold inline-block ${!pill ? "rounded-full" : ""} ${pickedVariant} ${addClassName}`}>{children}</a>
+        <a href={href} className={`transition py-3 px-10 text-lg font-semibold inline-block ${!pill ? "rounded-full" : ""} ${pickedVariant} ${addClassName}`}>{children}</a>
     )
 }
